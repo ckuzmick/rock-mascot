@@ -1,7 +1,12 @@
 {
-  "name": "ckuzmick-astro-starter",
+  "name": "RAUC Mascot Site",
   "version": "0.0.1",
   "private": true,
+  "author": {
+    "name": "Conrad Kuzmick",
+    "email": "cgkuzmick@gmail.com",
+    "url": "https://www.conradkuzmick.com"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
