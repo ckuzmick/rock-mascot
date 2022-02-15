@@ -1,5 +1,6 @@
 ---
-// Component imports and setup JavaScript go here!
+import Logo1 from "../assets/logo-1.svg"
+import Logo2 from "../assets/logo-2.svg"
 ---
 
 <html lang="en">
@@ -13,6 +14,16 @@
 	</head>
 
 	<body>
-		<h1 class="p-20 font-medium text-lg">Welcome to another Astro Starter</h1>
+		<div class="h-screen w-screen grid grid-cols-3">
+			<div class="h-3/4 logo-1">
+			<center>
+				<img src={Logo1} height="500px" width="500px"/>
+			</center>
+			</div>
+			<div class="h-3/4 logo-2">
+				<img src={Logo2} height="500px" width="500px"/>
+			</div>
+			<div class="h-3/4 logo-3"></div>
+		</div>
 	</body>
 </html>
